@@ -3,7 +3,7 @@
     <title>Menggunakan Background Gambar</title>
     <style type="text/css">
         body{
-            background-image:url("drums.jpg");
+            background-image:url("MAWAR.jpg");
             background-repeat:repeat-x;
         }
     </style>

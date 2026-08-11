@@ -3,7 +3,7 @@
     <title>Menggunakan Background Gambar</title>
     <style type="text/css">
         body{
-            background-image:url("bunga.jpg");
+            background-image:url("bears.jpg");
             background-repeat:no-repeat;
             background-position:center center;
         }
