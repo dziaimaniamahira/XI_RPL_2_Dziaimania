@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Personal Saya</title>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav>
+
+            <button onclick="showPage('home')">Home</button>
+
+            <button onclick="showPage('biodata')">Biodata</button>
+
+            <button onclick="showPage('tentang')">Tentang Saya</button>
+
+            <button onclick="showPage('galeri')">Galeri</button>
+
+            <button onclick="showPage('pendidikan')">Pendidikan</button>
+
+            <button onclick="showPage('organisasi')">Organisasi</button>
+
+            <button onclick="showPage('kelebihan')">Kelebihan</button>
+
+            <button onclick="showPage('prestasi')">Prestasi</button>
+
+            <button onclick="showPage('kompetensi')">Kompetensi</button>
+
+            <button onclick="showPage('portofolio')">Portofolio</button>
+
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="page active">
+
+        <div class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-photo">
+                    <img
+                        src="gambar/foto-profil.jpg"
+                        class="home-photo"
+                        alt="Foto Profile">
+                </div>
+
+                <div class="hello">
+                    WELCOME TO MY WEBSITE
+                </div>
+
+                <h1>
+                    Halo, Saya
+                    <span>Dzia</span>
+                </h1>
+
+                <p>
+                    Selamat datang di website personal saya 🌊
+                </p>
+
+                <button
+                    class="btn"
+                    onclick="showPage('biodata')">
+
+                    Jelajahi Profil Saya 🌺
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BIODATA -->
+    <section id="biodata" class="page">
+
+        <div class="title">
+
+            <h2>Biodata</h2>
+
+            <p>Kenali saya lebih dekat 🌺</p>
+
+        </div>
+
+
+        <div class="biodata-container">
+
+            <img
+                src="gambar/foto-profil.jpg"
+                class="profile-photo"
+                alt="Foto Saya">
+
+
+            <div class="biodata-text">
+
+                <h3>Dzia</h3>
+
+                <p>
+                    <b>Nama Lengkap:</b>
+                    Dzia Imania Mahira
+                </p>
+
+                <p>
+                    <b>Tempat, Tanggal Lahir:</b>
+                    Semarang,16 Mei 2010
+                </p>
+
+                <p>
+                    <b>Jenis Kelamin:</b>
+                    Perempuan
+                </p>
+
+                <p>
+                    <b>Alamat:</b>
+                    Kendal, Jawa Tengah
+                </p>
+
+                <p>
+                    <b>Kelas:</b>
+                    XI RPL 2
+                </p>
+
+                <p>
+                    <b>Email:</b>
+                    dziaimaniamahira@gmail.com
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TENTANG SAYA -->
+    <section id="tentang" class="page">
+
+        <div class="title">
+
+            <h2>Tentang Saya</h2>
+
+            <p>My Personal Story 🌊</p>
+
+        </div>
+
+
+        <div class="about-box">
+
+            <h3>Halo! 👋</h3>
+
+            <p>
+                Perkenalkan, nama saya adalah Dzia imania mahira.
+                Saya merupakan seorang pelajar yang memiliki
+                ketertarikan pada dunia teknologi, desain,
+                dan kreativitas.
+            </p>
+
+            <br>
+
+            <p>
+                Saya senang mempelajari hal-hal baru,
+                mencoba berbagai pengalaman, serta
+                mengembangkan kemampuan yang saya miliki.
+            </p>
+
+            <br>
+
+            <p>
+                Website ini dibuat sebagai tempat untuk
+                memperkenalkan diri, pengalaman, kemampuan,
+                dan karya-karya saya.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALERI -->
+    <section id="galeri" class="page">
+
+        <div class="title">
+
+            <h2>Photo Gallery</h2>
+
+            <p>Kumpulan foto saya 📸</p>
+
+        </div>
+
+
+        <div class="gallery">
+
+            <div class="gallery-item">
+
+                <img
+                    src="gambar/foto1.jpg"
+                    alt="Foto 1">
+
+                <p>My Photo 1</p>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="gambar/foto2.jpg"
+                    alt="Foto 2">
+
+                <p>My Photo 2</p>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="gambar/foto3.jpg"
+                    alt="Foto 3">
+
+                <p>My Photo 3</p>
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="gambar/foto4.jpg"
+                    alt="Foto 4">
+
+                <p>My Photo 4</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PENDIDIKAN -->
+    <section id="pendidikan" class="page">
+
+        <div class="title">
+
+            <h2>Riwayat Pendidikan</h2>
+
+            <p>Education History 📚</p>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <h3>SD</h3>
+
+                <p>SD Muhammadiyah plus Semarang</p>
+
+                <p>Tahun: 2014 - 2020</p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <h3>SMP</h3>
+
+                <p>MTs NU 02 Al-Ma'arif Boja</p>
+
+                <p>Tahun: 2020 - 2023</p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <h3>SMK</h3>
+
+                <p>SMK Negeri 3 Kendal</p>
+
+                <p>Jurusan Rekayasa Perangkat Lunak</p>
+
+                <p>Tahun: 2025 - Sekarang</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ORGANISASI -->
+    <section id="organisasi" class="page">
+
+        <div class="title">
+
+            <h2>Riwayat Organisasi</h2>
+
+            <p>Organization Experience 🌺</p>
+
+        </div>
+
+
+        <div class="organization">
+
+            <div class="organization-card">
+
+                <h3>Organisasi 1</h3>
+
+                <p>
+                    Paskibra
+                </p>
+
+                <br>
+
+                <p>
+                    Tahun: 2022 - 2024
+                </p>
+
+            </div>
+
+
+            <div class="organization-card">
+
+                <h3>Organisasi 2</h3>
+
+                <p>
+                    Pramuka 
+                </p>
+
+                <br>
+
+                <p>
+                    Tahun: 2022 - 2024
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- KELEBIHAN -->
+    <section id="kelebihan" class="page">
+
+        <div class="title">
+
+            <h2>Kelebihan Saya</h2>
+
+            <p>My Strengths ✨</p>
+
+        </div>
+
+
+        <div class="skills">
+
+            <div class="skill">
+
+                <div class="skill-name">
+                    Kreatif
+                </div>
+
+                <div class="skill-bar">
+
+                    <div
+                        class="skill-fill"
+                        style="width: 85%;">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-name">
+                    Bertanggung Jawab
+                </div>
+
+                <div class="skill-bar">
+
+                    <div
+                        class="skill-fill"
+                        style="width: 90%;">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-name">
+                    Kerja Sama
+                </div>
+
+                <div class="skill-bar">
+
+                    <div
+                        class="skill-fill"
+                        style="width: 85%;">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-name">
+                    Rajin
+                </div>
+
+                <div class="skill-bar">
+
+                    <div
+                        class="skill-fill"
+                        style="width: 95%;">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRESTASI -->
+    <section id="prestasi" class="page">
+
+        <div class="title">
+
+            <h2>Prestasi</h2>
+
+            <p>My Achievements 🏆</p>
+
+        </div>
+
+
+        <div class="achievement">
+
+            <div class="achievement-card">
+
+                <h3>🏆 Prestasi 1</h3>
+
+                <p>
+                    Puisi
+                </p>
+
+            </div>
+
+
+            <div class="achievement-card">
+
+                <h3>🥇 Prestasi 2</h3>
+
+                <p>
+                 Tilawah 
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- KOMPETENSI -->
+    <section id="kompetensi" class="page">
+
+        <div class="title">
+
+            <h2>Kompetensi</h2>
+
+            <p>My Skills 💻</p>
+
+        </div>
+
+.       <div class="competency">
+
+    <div>
+        <h3>
+            HTML
+            <span>90%</span>
+        </h3>
+
+        <div class="progress">
+            <div class="progress-bar" style="width: 90%;"></div>
+        </div>
+    </div>
+
+
+    <div>
+        <h3>
+            CSS
+            <span>85%</span>
+        </h3>
+
+        <div class="progress">
+            <div class="progress-bar" style="width: 85%;"></div>
+        </div>
+    </div>
+
+
+    <div>
+        <h3>
+            PHP
+            <span>75%</span>
+        </h3>
+
+        <div class="progress">
+            <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+    </div>
+
+
+    <div>
+        <h3>
+            MySQL
+            <span>80%</span>
+        </h3>
+
+        <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+    </div>
+
+</div>
+
+    </section>
+
+
+    <!-- PORTOFOLIO -->
+    <section id="portofolio" class="page">
+
+        <div class="title">
+
+            <h2>Portofolio</h2>
+
+            <p>My Works 💻</p>
+
+        </div>
+
+
+        <div class="portfolio">
+
+            <div class="portfolio-card">
+
+                <img
+                    src="gambar/karya1.jpg"
+                    alt="Karya 1">
+
+                <h3>UI/UX</h3>
+
+                <p>
+                    Website Polo
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-card">
+
+                <img
+                    src="gambar/karya2.jpg"
+                    alt="Karya 2">
+
+                <h3>Desain Website</h3>
+
+                <p>
+                    DFD dan ERD
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-card">
+
+                <img
+                    src="gambar/karya3.jpg"
+                    alt="Karya 3">
+
+                <h3>Project Lain</h3>
+
+                <p>
+                    VS Code
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Website Personal Saya 🌊
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        function showPage(pageId) {
+
+            document
+                .querySelectorAll(".page")
+                .forEach(function(page) {
+
+                    page.classList.remove("active");
+
+                });
+
+
+            document
+                .getElementById(pageId)
+                .classList.add("active");
+
+
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+
+        }
+
+    </script>
+
+</body>
+</html>
